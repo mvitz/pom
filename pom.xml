@@ -8,11 +8,26 @@
   <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <name>${project.artifactId}</name>
+  <description>Root POM for all mvitz's projects</description>
+
+  <url>http://mvitz.github.io/${project.artifactId}</url>
+
   <scm>
     <connection>scm:git:git@github.com/mvitz/${project.artifactId}.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mvitz/${project.artifactId}.git</developerConnection>
     <url>https://github.com/mvitz/${project.artifactId}</url>
   </scm>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/mvitz/${project.artifactId}/issues</url>
+  </issueManagement>
+
+  <ciManagement>
+    <system>Travis CI</system>
+    <url>https://travis-ci.org/mvitz/${project.artifactId}</url>
+  </ciManagement>
 
   <licenses>
     <license>
