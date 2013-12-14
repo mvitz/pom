@@ -8,6 +8,12 @@
   <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
+  <scm>
+    <connection>scm:git:git@github.com/mvitz/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/mvitz/${project.artifactId}.git</developerConnection>
+    <url>https://github.com/mvitz/${project.artifactId}</url>
+  </scm>
+
   <licenses>
     <license>
       <name>MIT license</name>
