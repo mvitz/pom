@@ -1,5 +1,5 @@
-# pom
 Root POM for all my projects
+# pom [![Build Status](https://travis-ci.org/mvitz/pom.png)](https://travis-ci.org/mvitz/pom)
 
 ## License
 Copyright (c) 2013 Michael Vitz and other contributors
