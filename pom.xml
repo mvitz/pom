@@ -11,7 +11,7 @@
   <name>${project.artifactId}</name>
   <description>Root POM for all mvitz's projects</description>
 
-  <url>http://mvitz.github.io/${project.artifactId}</url>
+  <url>http://${project.artifactId}.mvitz.de</url>
 
   <scm>
     <connection>scm:git:git@github.com/mvitz/${project.artifactId}.git</connection>
